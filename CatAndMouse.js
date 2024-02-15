@@ -9,9 +9,20 @@
 
 // FUNDAMENTALSSTRINGS
 
-function catMouse(x){
-    let wow = x.substring(1,x.length-1)
-    if(wow.length <= 3){
-      return "Caught!"
-    }else return "Escaped!"
+function catMouse(x) {
+    let wow = x.substring(1, x.length - 1)
+    if (wow.length <= 3) {
+        return "Caught!"
+    } else return "Escaped!"
+}
+// DESCRIPTION:
+// Complete the function that returns an array of length n, starting with the given number x and the squares of the previous number. If n is negative or zero, return an empty array/list.
+function squares(x, n) {
+    let wow = []
+    if (n === 0 || n < 0) {
+        return wow
+    } for (let i = x; wow.length < n; i *= i) {
+        wow.push(i)
     }
+    return wow
+}
