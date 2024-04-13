@@ -18,3 +18,5 @@ function wordsToMarks(str)
     sum += str.charCodeAt(i) - 96;
   return sum;
 }
+
+console.log(wordsToMarks())
