@@ -5,6 +5,8 @@
 // 'acb' --> 'bca'
 // 'aabacbaa' --> 'bbabcabb'
 
+// etc
+
 function switcheroo(x){
     return x.split('').map(function(e){
       if (e =='b')return 'a';
@@ -12,3 +14,4 @@ function switcheroo(x){
       if(e=='c') return 'c'
     }).join('');
   }
+
