@@ -30,3 +30,5 @@ function product (string) {
     });
     return wow * pow
   }
+
+console.log(product('??!!'))
