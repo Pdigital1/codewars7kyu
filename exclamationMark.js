@@ -32,3 +32,4 @@ function product (string) {
   }
 
 console.log(product('??!!'))
+console.log(product('?!'))
