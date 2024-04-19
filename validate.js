@@ -9,4 +9,8 @@ function validateCode (code) {
     }
     
     
-    
+
+function validateCode2(code){
+    var codeToString = code.toString()
+    return codeToString[0] < 4 ? true : false
+}
