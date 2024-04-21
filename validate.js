@@ -3,6 +3,18 @@
 // You can assume the input will always be a number.
 
 
+// function validateCode (code) {
+//     var codeString = code.toString()
+//     return code.toString()[0] < 4 ? true : false 
+//     }
+    
+    
+
+// function validateCode2(code){
+//     var codeToString = code.toString()
+//     return codeToString[0] < 4 ? true : false
+// }
+
 function validateCode (code) {
     var codeString = code.toString()
     return code.toString()[0] < 4 ? true : false 
