@@ -31,3 +31,5 @@ function nicknameGenerator(name) {
       return name.slice(0, 3);
     }
   }
+
+nicknameGenerator(tony)
