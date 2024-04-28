@@ -32,4 +32,4 @@ function nicknameGenerator(name) {
     }
   }
 
-nicknameGenerator(goke)
+nicknameGenerator(omisho)
