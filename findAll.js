@@ -13,4 +13,4 @@ const findAll = (array, n) => {
   
   return wow}
 
-findAll([6, 9, 3, 4, 3, 82, 11], 3)
+findAll([6, 9, 3, 4, 3, 82, 11], 4)
