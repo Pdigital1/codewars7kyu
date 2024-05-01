@@ -12,3 +12,5 @@ const findAll = (array, n) => {
     let wow = []; array.forEach((e, i)=>{if(e===n) {wow.push(i)}})
   
   return wow}
+
+findAll([6, 9, 3, 4, 3, 82, 11], 3)
