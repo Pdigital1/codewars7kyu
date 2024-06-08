@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(p){
-    return p.split('').map(function(e){
+function switcheroo(f){
+    return f.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
