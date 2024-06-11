@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(fs){
-    return fs.split('').map(function(e){
+function switcheroo(fsv){
+    return fsv.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
