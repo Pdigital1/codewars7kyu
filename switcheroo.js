@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(psv){
-    return psv.split('').map(function(e){
+function switcheroo(psve){
+    return psve.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
