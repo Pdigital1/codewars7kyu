@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(erikt){
-    return erikt.split('').map(function(e){
+function switcheroo(erikth){
+    return erikth.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
