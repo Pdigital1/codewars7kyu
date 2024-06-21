@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(lee){
-    return lee.split('').map(function(e){
+function switcheroo(beach){
+    return beach.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
