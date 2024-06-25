@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(day){
-    return day.split('').map(function(e){
+function switcheroo(igor){
+    return igor.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
