@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(earf){
-    return earf.split('').map(function(e){
+function switcheroo(bday){
+    return bday.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
