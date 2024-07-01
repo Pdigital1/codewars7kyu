@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(mide){
-    return mide.split('').map(function(e){
+function switcheroo(jani){
+    return jami.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
