@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(kurb){
-    return kurb.split('').map(function(e){
+function switcheroo(fourth){
+    return fourth.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
