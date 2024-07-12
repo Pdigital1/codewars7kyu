@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(copa){
-    return copa.split('').map(function(e){
+function switcheroo(dega){
+    return dega.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
