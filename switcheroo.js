@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(usmc){
-    return usmc.split('').map(function(e){
+function switcheroo(esp){
+    return esp.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
