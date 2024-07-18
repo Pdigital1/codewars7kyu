@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(piano){
-    return piano.split('').map(function(e){
+function switcheroo(STAR){
+    return STAR.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
