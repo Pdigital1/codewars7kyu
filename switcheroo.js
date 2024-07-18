@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(STAR){
-    return STAR.split('').map(function(e){
+function switcheroo(cook){
+    return cook.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
