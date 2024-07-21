@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(evo){
-    return evo.split('').map(function(e){
+function switcheroo(wnba){
+    return wnba.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
