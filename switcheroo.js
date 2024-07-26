@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(love){
-    return love.split('').map(function(e){
+function switcheroo(latto){
+    return latto.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
