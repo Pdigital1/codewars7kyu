@@ -7,8 +7,8 @@
 
 // etc
 
-function switcheroo(sancho){
-    return sancho.split('').map(function(e){
+function switcheroo(hulk){
+    return hulk.split('').map(function(e){
       if (e =='b')return 'a';
       if (e == 'a') return 'b';
       if(e=='c') return 'c'
