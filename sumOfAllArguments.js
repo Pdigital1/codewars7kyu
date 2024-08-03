@@ -6,6 +6,6 @@
 // sum(8, 2) // => 10
 // sum(1, 2, 3, 4, 5) // => 15
 
-function sum(...filhao) {
-    return filhao.reduce((a,b)=>a+b)
+function sum(...cage) {
+    return cage.reduce((a,b)=>a+b)
   }
