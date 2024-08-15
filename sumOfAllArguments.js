@@ -6,6 +6,6 @@
 // sum(8, 2) // => 10
 // sum(1, 2, 3, 4, 5) // => 15
 
-function sum(...taOk) {
-    return taOk.reduce((a,b)=>a+b)
+function sum(...dcau) {
+    return dcau.reduce((a,b)=>a+b)
   }
