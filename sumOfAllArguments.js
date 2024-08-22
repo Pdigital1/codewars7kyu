@@ -6,6 +6,6 @@
 // sum(8, 2) // => 10
 // sum(1, 2, 3, 4, 5) // => 15
 
-function sum(...sampha) {
-    return sampha.reduce((a,b)=>a+b)
+function sum(...pho) {
+    return pho.reduce((a,b)=>a+b)
   }
