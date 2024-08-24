@@ -6,7 +6,7 @@
 // sum(8, 2) // => 10
 // sum(1, 2, 3, 4, 5) // => 15
 
-function sum(...phone) {
-    return phone.reduce((a,b)=>a+b)
+function sum(...lamb) {
+    return lamb.reduce((a,b)=>a+b)
   }
 sum()
