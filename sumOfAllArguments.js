@@ -6,7 +6,7 @@
 // sum(8, 2) // => 10
 // sum(1, 2, 3, 4, 5) // => 15
 
-function sum(...red) {
-    return red.reduce((a,b)=>a+b)
+function sum(...cento) {
+    return cento.reduce((a,b)=>a+b)
   }
 sum()
