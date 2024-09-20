@@ -6,7 +6,7 @@
 // sum(8, 2) // => 10
 // sum(1, 2, 3, 4, 5) // => 15
 
-function sum(...pnd) {
-    return pnd.reduce((a,b)=>a+b)
+function sum(...old) {
+    return old.reduce((a,b)=>a+b)
   }
 sum()
