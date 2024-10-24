@@ -7,6 +7,6 @@
 // sum(1, 2, 3, 4, 5) // => 15
 
 function sum(...mook) {
-    return mook.reduce((a,c)=>a+c)
+    return mook.reduce((a,b)=>a+b)
   }
 sum()
